@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename= 'css/index.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename= 'css/messages.css') }}"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>WppAPI</title>
+  </head>
+  <body>
+    <div>
+      <h1>Whatsapp API</h1>
+      <div class="general-container">
+        <div class="sidebar-wrapper">
+          <h2>TRAMITES ESTA SEMANA</h2>
+          <canvas class="chart-tramite" id="weekchart"></canvas>
+          <canvas class="chart-tramite" id = "tramitechart"></canvas>
+          <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+          <script src="static/js/dataAnalysis.js"></script>
+        </div>
+        <div class="message-wrapper">
+          <div id="list-messages">
+            <ul id="messages"></ul>
+          </div>
+          <footer id="user-message-area">
+            <h2>Escriba un mensaje</h2>
+            <textarea id="textbox-user-msg" rows="1" cols="40"></textarea>
+          </footer>
+          <script src="static/js/chatMessages.js"></script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
