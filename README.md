@@ -12,9 +12,8 @@ La aplicación permite a un administrador gestionar las solicitudes en un grupo 
 - Backend desarrollado en **Flask y Node.js**.
 
 ## Tecnologías Utilizadas
-- **Backend:** Python (Flask), Node.js (Express)
+- **Backend:** TypeScript, Python (Flask), Node.js (Express)
 - **Base de Datos:** MySQL, MongoDB
 - **Frontend:** HTML, CSS, JavaScript
 - **Comunicación en Tiempo Real:** Socket.IO
 - **Integración con WhatsApp:** Baileys API
-- **Otros:** TypeScript
