@@ -1,6 +1,6 @@
-webhook/baileys_auth_info
-webhook/Pruebas
-webhook/baileys_store_multi.json
-webhook/src/.env
+servicio/baileys_auth_info
+servicio/Pruebas
+servicio/baileys_store_multi.json
+servicio/src/.env
 dockerfile
 Aplicación Whastapp.pdf
