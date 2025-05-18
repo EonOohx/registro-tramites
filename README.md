@@ -1,4 +1,6 @@
 # TramiTack - Gestión y Monitoreo de Trámites vía WhatsApp
+![Inicio del proyecto](https://img.shields.io/badge/Inicio-Junio%202024-blue)
+![Finalización del proyecto](https://img.shields.io/badge/Finalizado-Septiembre%202024-green)
 
 ## Descripción
 DanaoTramiTack es un sistema diseñado para automatizar el seguimiento de trámites solicitados en un ciber, optimizando la comunicación con los usuarios a través de WhatsApp. 
