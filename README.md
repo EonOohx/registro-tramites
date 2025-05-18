@@ -1,4 +1,4 @@
-# TramiTack - Gestión y Monitoreo de Trámites vía WhatsApp
+# 🌐 TramiTack - Gestión y Monitoreo de Trámites vía WhatsApp
 ![Inicio del proyecto](https://img.shields.io/badge/Inicio-Marzo%202024-blue)
 ![Finalización del proyecto](https://img.shields.io/badge/Finalizado-Mayo%202024-green)
 
@@ -12,7 +12,7 @@ La aplicación permite a un administrador gestionar las solicitudes en un grupo 
 - Comunicación en tiempo real con **Socket.IO**.
 - Backend desarrollado en **Flask y Node.js**.
 
-## Arquitectura
+## 🏗️ Arquitectura
 En el siguiente diagrama se muestra el diseño y la comunicación entre los componentes del sistema:
 - El servicio captura y filtra los mensajes de un grupo de WhatsApp mediante la API de Baileys.
 - Los datos se almacenan en MongoDB para generar estadísticas sobre los archivos enviados por los miembros del chat.
